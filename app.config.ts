@@ -6,5 +6,9 @@ export default defineAppConfig({
     'user',
     'user',
     'user'
-  ]
+  ],
+  ui: {
+    primary: 'green',
+    gray: 'cool'
+  }
 })
