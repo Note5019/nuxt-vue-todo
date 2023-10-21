@@ -1,9 +1,9 @@
 <template>
   <div>
     Hello
-    {{  appConfig }}
+    {{ appConfig }}
     <div v-for="todo in todos">
-<span>{{ todo.task }}</span>
+      <span>{{ todo.task }}</span>
     </div>
   </div>
 </template>
